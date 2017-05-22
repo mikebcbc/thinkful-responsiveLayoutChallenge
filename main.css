@@ -1,3 +1,18 @@
+header {
+	background-color: orange;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0 0 5px 0;
+}
+
+header h2  {
+	font-size: 16px;
+	margin: 0;
+}
+
 .card img {
 	display: block;
 	width: 100%;
