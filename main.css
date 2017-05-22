@@ -1,3 +1,7 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
 	background-color: orange;
 	margin-bottom: 30px;
@@ -5,6 +9,7 @@ header {
 }
 
 header h1 {
+	font-size: 30px;
 	margin: 0 0 5px 0;
 }
 
@@ -13,7 +18,24 @@ header h2  {
 	margin: 0;
 }
 
+.card {
+	margin-bottom: 20px;
+}
+
 .card img {
 	display: block;
 	width: 100%;
+}
+
+.card-info {
+	padding: 20px;
+	border: 1px solid lightgrey;
+}
+
+.card-title {
+	margin: 0;
+}
+
+.card-description {
+	margin: 5px 0 0 0;
 }
